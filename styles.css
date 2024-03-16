@@ -6,7 +6,9 @@ body{
 	background-color:#F6F6F6;
 	height:100vh;
 }
-
+.left > img{
+	width:300px;
+}
 form{
 	display:flex;
 	flex-direction:column;
@@ -30,7 +32,7 @@ a{
 	padding-bottom:10px;
 	border-bottom:1px solid gray;
 }
-.b1{
+.signup{
 	background-color:blue;
 	color:white;
 }
