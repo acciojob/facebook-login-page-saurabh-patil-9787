@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#F6F6F6;
+	height:100vh;
+}
+
+form{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	text-align:center;
+	background-color:white;
+	width:300px;
+	padding:20px;
+	border-radius:5px; 
+}
+input{
+	padding:10px;
+	border-radius:5px;
+}
+button{
+	padding:10px;
+	border-radius:5px;
+}
+a{
+	text-decoration:none;
+	padding-bottom:10px;
+	border-bottom:1px solid gray;
+}
+.b1{
+	background-color:blue;
+	color:white;
+}
+
+.b2{
+	background-color:green;
+	width:200px;
+	color:white;
+	margin:auto;
+	/* text-align:center; */
+	
+}
+.d2{
+	margin-left:10px;
+}
